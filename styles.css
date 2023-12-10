@@ -1,0 +1,170 @@
+body {
+    background-color:#DEC3BE;
+    margin:20px;
+    body:100%;
+}
+
+nav{
+    background-color:#F0A8A9;
+    border:3px solid #D57F94 ;
+     height:30px;
+     display:flex;
+     justify-content:center;
+     font:size 1.2rem;
+     position:sticky;
+     top:-10px;
+     z-index:999;
+}
+
+a:hover{
+    color:BLACK; 
+    background-color:white; 
+}
+
+nav a{
+    color:WHITE;
+    font-width:bold;
+    text-decoration:none;
+    width:80px;
+    text-transform:uppercase;
+    padding-right:10px;
+    
+}
+
+
+.ABOUT{
+   
+    margin-top:50px;
+     
+     width:800px;
+     background-color:#BEA8AA;
+     height:300px;
+     border:0.5px solid #B18D90;
+
+        display:flex;
+    justify-content: center;
+    margin:10px;
+    gap:90px;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    gap:98px;
+}
+
+img{
+   width:200px;
+    height:400px;
+    object-fit: cover;
+    margin-top:50px;
+    border-radius:10px;
+}
+.name1 ,h3{
+    background-color:#BEA8AA;
+    padding:10px;
+    margin:10px;
+    width:100px;
+    height:40px;
+}
+#home-work{
+    dispaly:flex;
+    flex-wrap:wrap;
+}
+
+h2{
+    background-color:#BEA8AA;
+    text-align: center;
+    text-width: bold;
+    color:WHITE;
+}
+h1{
+    text-align:center;
+    margin:0px;
+    border: 3px solid #D57F94;
+    
+
+}
+#best-seller{
+    background-color: #BEA8AA;
+}
+
+#our-products{
+    background-color:#BEA8AA;  
+}
+
+footer{
+    background-color:#F0A8A9;
+    text-align:center;
+    text-width:bold;
+    width:1000px;
+}
+.pic2{
+    width:300px;
+    height:600px;
+    border-radius:10px;
+}
+
+#best-seller .item{
+    background-color:#88665D;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#our-products .item{
+    background-color:#88665D;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+section{
+    width:1000px;
+}
+
+#article-content{
+   display:flex;
+    justify-content:center;
+    align-item:center;
+    min-height:100vh
+}
+.dior3{
+    width:400px;
+    float: left; 
+	margin: 5px;
+}
+ .row{
+    dispaly:flex;
+    flex-direction:row;
+}
+.pic{
+    vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding:10px;
+}
+.name{
+    text-align:center;
+}
+.row2{
+    display:flex;
+    flex-direction:row;
+}
+p{
+    text-align: justify; 
+	font-size: 20px; 
+}
+.footer{
+    text-align:center;
+}
+.hi{
+    color:white;
+    text-decoration:none;
+}
