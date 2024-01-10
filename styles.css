@@ -1,7 +1,6 @@
 body {
     background-color:#DEC3BE;
     margin:20px;
-    body:100%;
 }
 
 nav{
@@ -10,7 +9,7 @@ nav{
      height:30px;
      display:flex;
      justify-content:center;
-     font:size 1.2rem;
+     font-size: 1.2rem;
      position:sticky;
      top:-10px;
      z-index:999;
@@ -23,7 +22,7 @@ a:hover{
 
 nav a{
     color:WHITE;
-    font-width:bold;
+    font-size:18px;
     text-decoration:none;
     width:80px;
     text-transform:uppercase;
@@ -69,14 +68,14 @@ img{
     height:40px;
 }
 #home-work{
-    dispaly:flex;
+    display:flex;
     flex-wrap:wrap;
 }
 
 h2{
     background-color:#BEA8AA;
     text-align: center;
-    text-width: bold;
+    font-size: 18px;
     color:WHITE;
 }
 h1{
@@ -97,7 +96,7 @@ h1{
 footer{
     background-color:#F0A8A9;
     text-align:center;
-    text-width:bold;
+    font-size:18px;
     width:1000px;
 }
 .pic2{
@@ -130,7 +129,7 @@ section{
 #article-content{
    display:flex;
     justify-content:center;
-    align-item:center;
+    align-items:center;
     min-height:100vh
 }
 .dior3{
@@ -139,7 +138,7 @@ section{
 	margin: 5px;
 }
  .row{
-    dispaly:flex;
+    display:flex;
     flex-direction:row;
 }
 .pic{
